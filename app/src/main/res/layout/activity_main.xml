@@ -8,9 +8,12 @@
     <com.example.customspinners.CustomSpinner
         android:id="@+id/spinner_fruits"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:dropDownVerticalOffset="40dp"
-        android:layout_margin="16dp"
-        android:background="@drawable/bg_spinner_fruit"/>
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_spinner_fruit"
+        android:dropDownVerticalOffset="40dp" />
 
 </RelativeLayout>
