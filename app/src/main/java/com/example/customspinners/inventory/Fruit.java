@@ -4,6 +4,7 @@ import java.io.Serializable;
 public class Fruit implements Serializable {
 
     private String name;
+    private String titolo;
     private int image;
 
     public Fruit() {
@@ -23,5 +24,13 @@ public class Fruit implements Serializable {
 
     public void setImage(int image) {
         this.image = image;
+    }
+
+    public String getTitolo() {
+        return titolo;
+    }
+
+    public void setTitolo(String titolo) {
+        this.titolo = titolo;
     }
 }

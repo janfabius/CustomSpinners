@@ -49,9 +49,11 @@ public class FruitAdapter extends BaseAdapter {
                 .inflate(R.layout.item_fruit, viewGroup, false);
 
         TextView txtName = rootView.findViewById(R.id.name);
+        TextView txtListino = rootView.findViewById(R.id.listino);
         ImageView image = rootView.findViewById(R.id.image);
 
         txtName.setText(fruitList.get(i).getName());
+        txtListino.setText(fruitList.get(i).getTitolo());
         image.setImageResource(fruitList.get(i).getImage());
 
         return rootView;
